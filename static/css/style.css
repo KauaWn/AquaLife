@@ -1,0 +1,14 @@
+.navbar-cor {
+  background-color: #cbe6fa;
+}
+
+.autor-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+
+body {
+  background-color: red;
+}

@@ -1,0 +1,56 @@
+.navbar-cor, .footer-cor {
+  background-color: #cbe6fa;
+  color: #2f4156; 
+  height: 82px;       
+}
+
+.header-cor{
+  background-color: rgba(199, 217, 229, 0.8);
+}
+
+.autor-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+
+
+body {
+  color: #2F4156;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-corpo {
+  background-color: #f8f9fa; 
+  padding: 2rem;
+  border-radius: 16px;
+  margin-top: 2rem;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  width: 1300px;
+  margin: 3rem auto;  
+}
+
+.bg-custom{
+  font-family: 'Poppins', sans-serif;
+  color: #2F4156;
+
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(
+      rgba(47, 65, 87, 0.8),
+      rgba(47, 65, 87, 0.8)
+    ),
+    url("img/fundo.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.card-img-top {
+  height: 400px;       /* ajusta aqui */
+  object-fit: cover;  /* corta sem distorcer */
+}
